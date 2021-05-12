@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:8000/saleform -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It&#39;s fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It&#39;s fully customizable and modular.">
+    <title>Vali Admin - Free Bootstrap 4 Admin Template</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="./kkk_files/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="./kkk_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./kkk_files/jquery-ui.css">
+  <link rel="stylesheet" href="./kkk_files/style.css">
+ 
+  </head>
+  <body class="app sidebar-mini  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="http://127.0.0.1:8000/index.html">Vali</a>
+      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="http://127.0.0.1:8000/saleform#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+      <!-- Navbar Right Menu-->
+      <ul class="app-nav">
+        <li class="app-search">
+          <input class="app-search__input" type="search" placeholder="Search">
+          <button class="app-search__button"><i class="fa fa-search"></i></button>
+        </li>
+        <!--Notification Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="http://127.0.0.1:8000/saleform#" data-toggle="dropdown" aria-label="Show notifications"><i class="fa fa-bell-o fa-lg"></i></a>
+          <ul class="app-notification dropdown-menu dropdown-menu-right">
+            <li class="app-notification__title">You have 4 new notifications.</li>
+            <div class="app-notification__content">
+              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
+                  <div>
+                    <p class="app-notification__message">Lisa sent you a mail</p>
+                    <p class="app-notification__meta">2 min ago</p>
+                  </div></a></li>
+              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
+                  <div>
+                    <p class="app-notification__message">Mail server not working</p>
+                    <p class="app-notification__meta">5 min ago</p>
+                  </div></a></li>
+              <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
+                  <div>
+                    <p class="app-notification__message">Transaction complete</p>
+                    <p class="app-notification__meta">2 days ago</p>
+                  </div></a></li>
+              <div class="app-notification__content">
+                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
+                    <div>
+                      <p class="app-notification__message">Lisa sent you a mail</p>
+                      <p class="app-notification__meta">2 min ago</p>
+                    </div></a></li>
+                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
+                    <div>
+                      <p class="app-notification__message">Mail server not working</p>
+                      <p class="app-notification__meta">5 min ago</p>
+                    </div></a></li>
+                <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
+                    <div>
+                      <p class="app-notification__message">Transaction complete</p>
+                      <p class="app-notification__meta">2 days ago</p>
+                    </div></a></li>
+              </div>
+            </div>
+            <li class="app-notification__footer"><a href="http://127.0.0.1:8000/saleform#">See all notifications.</a></li>
+          </ul>
+        </li>
+        <!-- User Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="http://127.0.0.1:8000/saleform#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+          <ul class="dropdown-menu settings-menu dropdown-menu-right">
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="./kkk_files/48.jpg" alt="User Image">
+        <div>
+          <p class="app-sidebar__user-name">John Doe</p>
+          <p class="app-sidebar__user-designation">Frontend Developer</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li><a class="app-menu__item active" href="http://127.0.0.1:8000/dashboard.html"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+                <li class="treeview"><a class="app-menu__item" href="http://127.0.0.1:8000/saleform#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">ACL</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/userlist"><i class="icon fa fa-circle-o"></i>User</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/rolelist" target="" rel="noopener"><i class="icon fa fa-circle-o"></i>Role</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/permissionlist"><i class="icon fa fa-circle-o"></i>Permission</a></li>
+          </ul>
+        </li>
+        
+        <li class="treeview"><a class="app-menu__item" href="http://127.0.0.1:8000/saleform#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Reconcilation-Form</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="http://127.0.0.1:8000/saleform"><i class="icon fa fa-circle-o"></i>Sales Form</a></li>
+                        <li><a class="treeview-item" href="http://127.0.0.1:8000/salelist" target="" rel="noopener"><i class="icon fa fa-circle-o"></i>Sale List</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/purchaseform"><i class="icon fa fa-circle-o"></i>Purchase Form</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/purchaselist"><i class="icon fa fa-circle-o"></i> Purchase List</a></li>
+          </ul>
+        </li>
+        <li><a class="app-menu__item" href="http://127.0.0.1:8000/charts.html"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">PETTY -Contract</span></a></li>
+        <li class="treeview"><a class="app-menu__item" href="http://127.0.0.1:8000/saleform#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Forms</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/form-components.html"><i class="icon fa fa-circle-o"></i> Form Components</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/form-custom.html"><i class="icon fa fa-circle-o"></i> Custom Components</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/form-samples.html"><i class="icon fa fa-circle-o"></i> Form Samples</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/form-notifications.html"><i class="icon fa fa-circle-o"></i> Form Notifications</a></li>
+          </ul>
+        </li>
+        <li class="treeview"><a class="app-menu__item" href="http://127.0.0.1:8000/saleform#" data-toggle="treeview"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Tables</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/table-basic.html"><i class="icon fa fa-circle-o"></i> Basic Tables</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/table-data-table.html"><i class="icon fa fa-circle-o"></i> Data Tables</a></li>
+          </ul>
+        </li>
+        <li class="treeview"><a class="app-menu__item" href="http://127.0.0.1:8000/saleform#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Pages</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/blank-page.html"><i class="icon fa fa-circle-o"></i> Blank Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-login.html"><i class="icon fa fa-circle-o"></i> Login Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-lockscreen.html"><i class="icon fa fa-circle-o"></i> Lockscreen Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-user.html"><i class="icon fa fa-circle-o"></i> User Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-invoice.html"><i class="icon fa fa-circle-o"></i> Invoice Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-calendar.html"><i class="icon fa fa-circle-o"></i> Calendar Page</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-mailbox.html"><i class="icon fa fa-circle-o"></i> Mailbox</a></li>
+            <li><a class="treeview-item" href="http://127.0.0.1:8000/page-error.html"><i class="icon fa fa-circle-o"></i> Error Page</a></li>
+          </ul>
+        </li>
+        <li><a class="app-menu__item" href="http://127.0.0.1:8000/docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li>
+      </ul>
+    </aside>    <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-edit"></i>Reconcillation</h1>
+          <p>Sales Form</p>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+          <li class="breadcrumb-item">Sales Form</li>
+          <li class="breadcrumb-item"><a href="http://127.0.0.1:8000/saleform">Sales List</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tile">
+            <form action="http://127.0.0.1:8000/sales_store" method="post">
+              <input type="hidden" name="_token" value="05uREABrY00VqXUvdoCeO9aOgcTKUXQrf1ERXaWq">            <div class="row">
+              <div class="col-lg-4">
+                  <div class="form-group">
+                    <label for="gsstin_uin_of_recipient">GSTIN/UIN of Recipient</label>
+                    <input class="form-control" id="gsstin_uin_of_recipient" name="gsstin_uin_of_recipient" value="" type="text" aria-describedby="emailHelp" placeholder="Enter GSTIN">
+                                       </div>
+                  <div class="form-group">
+                    <label for="receiver_name">Receiver Name</label>
+                    <input class="form-control" id="receiver_name" name="receiver_name" type="text" value="" placeholder="Receiver Name">
+                                       </div>
+                  <div class="form-group">
+                    <label for="invoive_number">Invoice No.</label>
+                    <input class="form-control" id="invoive_number" name="invoive_number" type="text" aria-describedby="emailHelp" value="" placeholder="Invoice No.">
+                                       </div>
+                  <div class="form-group">
+                    <label for="sales_date">Sale Date</label>
+                   <input type="text" id="sales_date" class="form-control hasDatepicker" name="sales_date" value="" placeholder="sales date" autocomplete="off">
+                                       </div>
+                  <div class="form-group">
+                    <label for="gross_total_invoice_value">gross_total(Invoice value)</label>
+                    <input class="form-control" id="gross_total_invoice_value" name="gross_total_invoice_value" type="text" value="" aria-describedby="emailHelp" placeholder="Enter gross total">
+                                       </div>
+                  <div class="form-group">
+                    <label for="place_of_supply">Place of Supply</label>
+                    <input class="form-control" id="place_of_supply" value="" name="place_of_supply" type="text" placeholder="place of supply">
+                                       </div>
+                  <div class="form-group">
+                    <label for="reverse_charge">Reverse Charge</label>
+                    <input class="form-control" id="reverse_charge" name="reverse_charge" type="text" aria-describedby="emailHelp" value="" placeholder="Enter reverse charge">
+                                       </div>
+                  <div class="form-group">
+                    <label for="applicable_per_of_tax_rate">Applicable % (tax rate)</label>
+                    <input class="form-control" id="applicable_per_of_tax_rate" name="applicable_per_of_tax_rate" type="text" value="" placeholder="Password">
+                                       </div>
+                  <div class="form-group">
+                    <label for="invoice_type">Invoice Type</label>
+                    <input class="form-control" id="invoice_type" type="text" aria-describedby="emailHelp" name="invoice_type" value="" placeholder="Enter invoice type">
+                                       </div>
+                  <div class="form-group">
+                    <label for="e_commerce_gstin">E-commerce_gstin</label>
+                    <input class="form-control" id="e_commerce_gstin" value="" name="e_commerce_gstin" type="text" placeholder="E-commerce_gstin">
+                                       </div>
+                  
+                  <div class="form-group">
+                    <label for="gst_rate">Gst Rate</label>
+                    <input class="form-control" id="gst_rate" value="" name="gst_rate" type="text" placeholder="gst_rate">
+                                       </div>
+              </div>
+              <div class="col-lg-4">
+                
+                  <div class="form-group">
+                    <label for="base_amount_taxable_value">Base Amount(taxable)</label>
+                    <input class="form-control" id="base_amount_taxable_value" type="text" aria-describedby="emailHelp" value="" name="base_amount_taxable_value" placeholder="Base amount taxable value">
+                                       </div>
+                  <div class="form-group">
+                    <label for="cheque_date">Cheque  Date</label>
+                    
+                      <input type="text" id="cheque_date" class="form-control hasDatepicker" name="cheque_date" value="" placeholder="cheque  date" autocomplete="off">
+                                       </div>
+                  <div class="form-group">
+                    <label for="cheque_received_amount">Cheque Received Amount</label>
+                    <input class="form-control" id="cheque_received_amount" name="cheque_received_amount" type="text" value="" aria-describedby="emailHelp" placeholder="cheque received amount">
+                  
+                                       </div>
+                  <div class="form-group">
+                    <label for="tds">TDS</label>
+                    <input class="form-control" id="tds" value="" name="tds" type="text" placeholder="tds">
+                                       </div>
+                  <div class="form-group">
+                    <label for="other">other</label>
+                    <input class="form-control" id="other" name="other" type="text" aria-describedby="emailHelp" value="" placeholder="Enter email">
+                                       </div>
+                  <div class="form-group">
+                    <label for="total_amount">Total Amount</label>
+                    <input class="form-control" id="total_amount" value="" name="total_amount" type="text" placeholder="Password">
+                                       </div>
+                  <div class="form-group">
+                    <label for="outstanding">Outstanding</label>
+                    <input class="form-control" id="outstanding" name="outstanding" type="text" aria-describedby="emailHelp" value="" placeholder="Enter email">
+                                       </div>
+                  <div class="form-group">
+                    <label for="mobolization_n_advanced_adjust">Mobolization &amp;  Advanced Adjust</label>
+                    <input class="form-control" id="mobolization_n_advanced_adjust" name="mobolization_n_advanced_adjust" type="text" value="" placeholder="Password">
+                                       </div>
+                  <div class="form-group">
+                    <label for="five_percrnt_sd">5% sd</label>
+                    <input class="form-control" id="five_percrnt_sd" name="five_percrnt_sd" type="text" aria-describedby="emailHelp" value="" placeholder="Enter email">
+                                       </div>
+                  <div class="form-group">
+                    <label for="labour_paymnet">Labour Paymnet</label>
+                    <input class="form-control" id="labour_paymnet" value="" name="labour_paymnet" type="text" placeholder="Password">
+                                       </div>
+                  
+                  <div class="form-group">
+                    <label for="Pf_epf">Pf/Epf</label>
+                    <input class="form-control" id="Pf_epf" value="" name="Pf_epf" type="text" placeholder="Enter Pf_epf">
+                                       </div>
+              </div>
+              <div class="col-lg-4">
+                
+                  <div class="form-group">
+                    <label for="group_insurance">Group Insurance</label>
+                    <input class="form-control" id="group_insurance" name="group_insurance" type="text" aria-describedby="emailHelp" value="" placeholder="Enter group insurance">
+                                       </div>
+                  <div class="form-group">
+                    <label for="late_delivery_charges">Late Delivery Charges</label>
+                    <input class="form-control" id="late_delivery_charges" name="late_delivery_charges" type="text" value="" placeholder="Password">
+                                       </div>
+                  <div class="form-group">
+                    <label for="tds_on_igst_at_2_per">Tds on igst@2%)</label>
+                    <input class="form-control" id="tds_on_igst_at_2_per" type="text" aria-describedby="emailHelp" value="" name="tds_on_igst_at_2_per" placeholder="Enter email">
+                                       </div>
+                  <div class="form-group">
+                    <label for="electricity_charged">
+                    Electricity Charged</label>
+                    <input class="form-control" id="electricity_charged" name="electricity_charged" type="text" value="" placeholder="Password">
+                                       </div>
+                  <div class="form-group">
+                    <label for="total_deduction">Total Deduction</label>
+                    <input class="form-control" id="total_deduction" value="" name="total_deduction" type="text" aria-describedby="emailHelp" placeholder="Enter email">
+                                       </div>
+                  <div class="form-group">
+                    <label for="description">Description</label>
+                     <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                                        </div>
+                  
+            <div class="tile-footer">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+        </div>
+          </div>
+        </div>
+    </main>
+<!-- Essential javascripts for application to work-->
+    <script src="./kkk_files/jquery-3.3.1.min.js"></script>
+    <script src="./kkk_files/popper.min.js"></script>
+    <script src="./kkk_files/bootstrap.min.js"></script>
+    <script src="./kkk_files/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="./kkk_files/pace.min.js"></script>
+    <script src="./kkk_files/jquery-1.12.4.js"></script>
+  <script src="./kkk_files/jquery-ui.js"></script>
+    <!-- Page specific javascripts-->
+    <script type="text/javascript" src="./kkk_files/chart.js"></script>
+    
+    <!-- Google analytics script-->
+    <script type="text/javascript">
+      if(document.location.hostname == 'pratikborsadiya.in') {
+      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      	ga('create', 'UA-72504830-1', 'auto');
+      	ga('send', 'pageview');
+      }
+    </script>
+     <script>
+  $( function() {
+    $( "#cheque_date" ).datepicker({ dateFormat: 'yy-mm-dd' });
+    $( "#sales_date" ).datepicker({ dateFormat: 'yy-mm-dd' });
+    $( "#purchase_date" ).datepicker({ dateFormat: 'yy-mm-dd' });
+  } );
+  </script>
+  
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>

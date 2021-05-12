@@ -1,0 +1,1 @@
+onclick="return confirm('Are you sure?')"

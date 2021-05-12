@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+	<?mso-application progid="Excel.Sheet"?> 
+	<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" 
+	xmlns:x="urn:schemas-microsoft-com:office:excel" 
+	xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
+	xmlns:html="http://www.w3.org/TR/REC-html40"> 
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"> 
+	<Version>12.00</Version> 
+	</DocumentProperties> 
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"> 
+	<WindowHeight>8130</WindowHeight> 
+	<WindowWidth>15135</WindowWidth> 
+	<WindowTopX>120</WindowTopX> 
+	<WindowTopY>45</WindowTopY> 
+	<ProtectStructure>False</ProtectStructure> 
+	<ProtectWindows>False</ProtectWindows> 
+	</ExcelWorkbook> 
+	<Styles>
+		<Style ss:ID="xls-style-1" ss:Name="xls-style-1">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#E8E8E8" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-2" ss:Name="xls-style-2">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="xls-style-3" ss:Name="xls-style-3">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Right"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+			<NumberFormat ss:Format="#,##0.00_);[Red](#,##0.00)"/>
+		</Style>
+		<Style ss:ID="xls-style-4" ss:Name="xls-style-4">
+			<Alignment ss:Vertical="Bottom" ss:Horizontal="Left"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+			</Borders>
+			<Font ss:Color="#000000" />
+			<Interior ss:Color="#F9F9F9" ss:Pattern="Solid"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table>
+			<Column ss:Width="75"/>
+			<Column ss:Width="225"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="100"/>
+			<Column ss:Width="80"/>
+			<Row>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Code</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Vendor</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Opening</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Advance</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Billed</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Payments</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Balance</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Unbilled</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String">Balance YTD</Data></Cell>
+				<Cell ss:StyleID="xls-style-1"><Data ss:Type="String"></Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA1022</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ASIAN ELECTRICAL &amp; ELECTRONICS1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5277.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5277.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5277.01</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">221f1978-591a-e511-8182-000c2984b68d</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA1027</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">New Vendor 1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4449.7189</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4449.7189</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4449.7189</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">5e31bb1e-ec8d-e511-88af-000c2918f64f</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA1028</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">Bew Test Contractor 2</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65360.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65360.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">65360.39</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">c9bf2f2f-ac8e-e511-a132-000c2918f64f</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2030</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">This is a new vendor</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4438.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4438.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">4438.87</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">43540fec-77ad-e511-a30f-000c2918f64f</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2031</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">TECHNICAL AND SCIENTIFIC SALES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16580.33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16580.33</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">16580.33</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">d32641b0-3b33-4b80-a51e-37bcb3e6aae6</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2032</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">WINGET CONSTRUCTION EQUIPMENT P.LTD.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">282924.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">282924.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">282924.65</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">0a95e3c6-d20b-490f-967d-e34677b5ca26</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2034</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SKM CONSTRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85086.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85086.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">85086.54</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6de6c61b-d20a-4b4a-b7b6-e62f306a029a</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2035</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SKYWAY RMC PLANTS PVT LTD</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50088</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50088</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">50088</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">c1e7ab77-4bd2-4008-bb51-ac6f978cb0fe</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2036</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">NANJI KALABHAI PATEL &amp; CO</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-6449.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-6449.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-6449.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">f746906f-d8f0-4928-b027-b00418b07312</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2037</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ULTRATECH CEMENT LTD  </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7952460</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7952460</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">7952460</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ae291ac2-8a4e-4ed0-8ceb-83f1941b0c75</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2038</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">STRUCTWEL DESIGNERS &amp; CONSULTANTS PVT. LTD</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18255</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">18255</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">d7aae008-ee75-4a7a-9ff3-a66b2d19c45d</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2039</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KAVITA ENTERPRISES - GUJARAT</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3290</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3290</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3290</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">d7f5ab7f-5b2c-4cc4-a7d5-5dff6545e42d</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2040</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KRISHNA CONCHEM PRODUCTS PVT LTD</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">b3c7fc81-85fe-4d93-970f-137dc925296b</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2041</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SHREE RAM STEEL </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">166.26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">166.26</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">166.26</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">f9aed3ee-dfe6-4019-9598-2afb40293bd5</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2044</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">DEVANSH ENTERPRISES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">349.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">349.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">45000</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">349.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">57ecf14c-921e-4228-b584-930a285c3f8f</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2046</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">BHAVIN TRADING CO.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-75</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-75</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">66c91914-2860-494e-8235-61e94dd10568</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2047</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KAVITA ENTERPRISES - MAHARASHTRA</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43154.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43154.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">43154.4</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">a0a1dba4-78a7-4c27-a51a-0e60c2d6b3b7</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2048</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">RELCON INFRAPROJECTS LTD.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40783.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40783.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40783.6</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">cb45b1e9-1f24-4daa-9515-72356ea522a0</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2049</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">JAYCEE BUILDCON (INDIA) P.LTD.</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1735.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1735.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">1735.1</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">c00d3001-8e47-434b-b827-89e604f9c627</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2050</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">M.B.ANDURLEKAR &amp; ASSOCIATES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3022.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3022.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">3022.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">dca1e5b3-75ea-4730-9811-1042a924adaa</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2052</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">PAWAN INDUSTRIES</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">600</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">600</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">600</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">1abb6ff6-971f-4024-ba7a-e831804699bd</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2055</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">ADITYA INTERNATIONAL</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44500</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44500</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">44500</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">521dd93f-c649-437e-8fe2-706e5fe3f83b</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2062</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">S.K. PATEL </Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40079.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40079.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">40079.5</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">13b4cd44-4d41-4a36-9475-a4ab5a24f528</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2066</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">EVERSHINE FOUNDATIONS</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5000</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5000</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">-5000</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6c69e762-0a01-48da-918f-51fad8e803cd</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">VHA2073</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">SUYOG SUPPLIERS</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">270</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">b5a5fadf-8f73-47a1-bc59-08ad81b7621f</Data></Cell>
+			</Row>
+			<Row>
+				<Cell ss:StyleID="xls-style-4"><Data ss:Type="String">VHA2609</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">KAVITA MANOHAR BHADALE</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64750</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64750</Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="String"></Data></Cell>
+				<Cell ss:StyleID="xls-style-3"><Data ss:Type="Number">64750</Data></Cell>
+				<Cell ss:StyleID="xls-style-2"><Data ss:Type="String">6fefb509-1682-4983-9914-a22aced3e793</Data></Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
