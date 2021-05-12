@@ -3,7 +3,7 @@
     <main class="app-content">
       <div class="app-title">
         <div>
-          <h1><i class="fa fa-edit"></i>Job/Work Name</h1>
+          <h1><i class="fa fa-edit"></i>Job/Work Namegit learn</h1>
           <p>Job/Work Form</p>
         </div>
         <ul class="app-breadcrumb breadcrumb">
